@@ -1,0 +1,15 @@
+[{
+  "Name": "microzim",
+  "Description": "Basic manipulation of zim-wiki files",
+  "Tags": ["zim", "zim-wiki"],
+  "Website": "https://github.com/ihavenomouth/microzim",
+  "Versions": [
+    {
+      "Version": "0.0.1",
+      "Url": "https://github.com/ihavenomouth/microzim/microzim-2.01",
+      "Require": {
+        "micro": ">=2.0.0"
+      }
+    }
+  ]
+}]
