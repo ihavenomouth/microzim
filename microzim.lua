@@ -1,4 +1,4 @@
-VERSION = "0.0.1"
+VERSION = "0.1.0"
 
 local micro = import("micro")
 local config = import("micro/config")
@@ -143,14 +143,16 @@ function init()
    config.MakeCommand("header"  , header,   config.NoComplete)
    config.MakeCommand("bold"    , bold,     config.NoComplete)
    config.MakeCommand("italic"  , italic,   config.NoComplete)
-	config.TryBindKey("Alt-1", "lua:microzim.h1",false);
-	config.TryBindKey("Alt-2", "lua:microzim.h2",false);
-	config.TryBindKey("Alt-3", "lua:microzim.h3",false);
-	config.TryBindKey("Alt-4", "lua:microzim.h4",false);
-	config.TryBindKey("Alt-5", "lua:microzim.h5",false);
-	config.TryBindKey("Alt-t", "lua:microzim.verbatim",false);
-	config.TryBindKey("Alt-h", "lua:microzim.header",false);
-	config.TryBindKey("Alt-b", "lua:microzim.bold",false);
-	config.TryBindKey("Alt-i", "lua:microzim.italic",false);
-  --  config.AddRuntimeFile("microzim", config.RTHelp, "help/microzim.md")
+
+   config.TryBindKey("Alt-1", "lua:microzim.h1",false)
+   config.TryBindKey("Alt-2", "lua:microzim.h2",false)
+   config.TryBindKey("Alt-3", "lua:microzim.h3",false)
+   config.TryBindKey("Alt-4", "lua:microzim.h4",false)
+   config.TryBindKey("Alt-5", "lua:microzim.h5",false)
+   config.TryBindKey("Alt-t", "lua:microzim.verbatim",false)
+   config.TryBindKey("Alt-h", "lua:microzim.header",false)
+   config.TryBindKey("Alt-b", "lua:microzim.bold",false)
+   config.TryBindKey("Alt-i", "lua:microzim.italic",false)
+   -- config.AddRuntimeFile("microzim", config.RTHelp, "help/microzim.md")
 end
+
