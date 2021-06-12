@@ -6,7 +6,7 @@
   "Versions": [
     {
       "Version": "0.0.1",
-      "Url": "https://github.com/ihavenomouth/microzim/microzim-2.01",
+      "Url": "https://github.com/ihavenomouth/microzim/TODO",
       "Require": {
         "micro": ">=2.0.0"
       }
